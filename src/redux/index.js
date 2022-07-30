@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from "redux";
-import CounterReducer from "./reducers/index";
+import CounterReducer from "./reducers/countReducer";
 import todoReducer from "./reducers/todoReducer";
 const reducers = combineReducers({
   counter: CounterReducer,
